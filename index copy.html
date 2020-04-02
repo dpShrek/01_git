@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../SkillUp/style.css">
-    <script src="../SkillUp/script.js"></script>
+    <script src="../SkillUp/script.js"> </script>
     <link rel="stylesheet" href="https://github.com/dpShrek/SkillUp/blob/master/style.css">
     <title>Страница SkillUp</title>
 </head>
 <body>
     <!--Заголовок-->
-        
-            <h1>Игра "Угадай число от 1 до 10"</h1>
-             
-        
+        <header>
+            <h1>Игра</h1>
+        </header>       
+        <p id="temp-Out"></p>
     <!--Поле Ввода-->        
-        <div class="tempOut">
-            <p id="Vvedite4islo">Введите число: </br>  
-                <input type="text" size="10" id="my-num"></p>
-               
-
+        <div class="inpet1">
+            <p id="Vvedite4islo">Введите число</p>
+                <input type="text" size="10" class="PoleVvoda">        
+        </div>
 
     <!--Поле Вывода--> 
-      
-            <button id="butClick" onclick = "f1 ()">Угадать число</button>    
-      
-   
-        <div class="import">
-        <p id="out"></p>
+        <div class="dvButClick">
+            <button onclick="guessNumber ()" id="butClick">Угадать число</button>    
+        </div>
+    <div class="import">
+        
+        <p id="vuvod"></p>
+        
     </div>
-        <p id="temp-out"></p>
 
-    </div>
+        
 
     <!--Картинка после вычислений-->
         <content>
