@@ -21,7 +21,7 @@ function f1 () {
      else if (num < prNum) {
          out.innerHTML = 'Вы ввели число меньше чем нужно';
      }
-     else  {
+     else {
          out.innerHTML ='Введите число от 1 до 10';
      }
 }
